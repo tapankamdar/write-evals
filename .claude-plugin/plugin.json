@@ -1,0 +1,9 @@
+{
+  "name": "write-evals",
+  "version": "1.0.0",
+  "description": "Generates principled, product-specific AI evaluation suites with test cases, pass/fail criteria, and LLM-as-judge prompts.",
+  "author": {
+    "name": "Tapan Kamdar",
+    "email": "tkamdar@gmail.com"
+  }
+}
