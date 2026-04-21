@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "write-evals",
+  "version": "1.0.0",
+  "description": "Claude Code plugin that generates product-specific AI eval suites — categories, test cases, pass/fail criteria, and LLM-as-judge prompts.",
+  "owner": {
+    "name": "Tapan Kamdar",
+    "email": "tapankamdar@users.noreply.github.com",
+    "url": "https://github.com/tapankamdar"
+  },
+  "plugins": [
+    {
+      "name": "write-evals",
+      "description": "Generates a product-specific AI eval suite — categories, test cases, pass/fail criteria, and LLM-as-judge prompts. Opens with evaluation philosophy and five core principles, then gathers product context and produces tailored eval categories with detailed test cases and grading rubrics.",
+      "source": ".",
+      "category": "ai-quality"
+    }
+  ]
+}
